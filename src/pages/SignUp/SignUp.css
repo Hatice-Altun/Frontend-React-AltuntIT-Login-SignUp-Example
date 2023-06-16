@@ -1,0 +1,62 @@
+.signup {
+    width: 430px;
+    height: 500px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    margin: auto;
+}
+
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.e-mailadres, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.icons {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+
+.signup button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background: #24cfaa;
+    color: #ecf0f3;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+    transition: 0.5s;
+    margin-left: 0;
+}
+
+.button:hover {
+    background: #2fdbb6;
+}
+
+.button:active {
+    background: #1da88a;
+}
+
+
